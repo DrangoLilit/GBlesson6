@@ -10,8 +10,9 @@ body {
 a {
     text-decoration: none;
 }
-ul{
-    list-style: none;  
+
+ul {
+    list-style: none;
 }
 
 .header__menu {
@@ -81,7 +82,8 @@ ul{
     width: 458px;
 }
 
-.block-slider__text-p, .bigproduct__p {
+.block-slider__text-p,
+.bigproduct__p {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
@@ -90,11 +92,13 @@ ul{
     margin-bottom: 32px;
     width: 374px;
 }
-.bigproduct__p{
-        margin-top: 16px;
+
+.bigproduct__p {
+    margin-top: 16px;
 }
 
-.slider-button, .bigproduct__button {
+.slider-button,
+.bigproduct__button {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -115,15 +119,15 @@ ul{
     background-color: #c8c7c8;
     height: 30px;
     width: 30px;
-        display: block;
+    display: block;
     border-radius: 50%;
     margin: 5px;
 }
 
 .slider-active {
-width: 40px;
-height: 40px;
-background-color: #212121;
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
 }
 
 .block-slider__pagination {
@@ -132,7 +136,7 @@ background-color: #212121;
     align-items: center;
 }
 
-.block-featured__nav {
+.block-featured__nav, .block-trend-products__nav {
     display: flex;
     justify-content: space-between;
 }
@@ -142,9 +146,9 @@ background-color: #212121;
 }
 
 .block-featured__nav-tab {
-color: #212121;
-font-size: 36px;
-font-weight: 700;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
     padding: 0 20px 19px 9px;
     border-bottom: 1px solid #6c6c6c;
 }
@@ -153,27 +157,29 @@ font-weight: 700;
     border-bottom: 3px solid #212121;
 }
 
-.block-featured__explore {
-font-size: 18px;
-font-weight: 700;
-text-transform: uppercase;
-color: #212121;
-letter-spacing: 3.6px;
+.block-featured__explore,
+.block-trend-products__explore {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
     margin-top: 18px;
+    margin-bottom: 4px;
 }
 
 .block-featured__product-list {
-    margin-top: 50px;
+    margin-top: 72px;
     display: flex;
     justify-content: space-between;
 }
 
 .block-featured__product-list-first {
-width: 270px;
-height: 270px;
-border: 1px solid #9c9c9c;
-background-color: #ffffff;
-opacity: 0.9;
+    width: 270px;
+    height: 270px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,31 +187,31 @@ opacity: 0.9;
 }
 
 .block-featured-h4 {
-color: #212121;
-font-size: 22px;
-font-weight: 700;
-line-height: 29.88px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
     text-align: center;
     margin-top: 19px;
     margin-bottom: 23px;
 }
 
 .block-featured-text {
-color: #6c6c6c;
-font-size: 14px;
-font-weight: 300;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
     padding: 0 32px;
     text-align: center;
-        letter-spacing: -0.2px;
+    letter-spacing: -0.2px;
 }
 
 .block-featured__product-list-button {
     /* Style for "back" */
-width: 48px;
-height: 48px;
-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-border-radius: 50%;
-background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 50%;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,20 +243,41 @@ background-color: #ffffff;
 }
 
 .biproduct__exclusive {
-font-size: 18px;
-font-weight: 700;
-text-transform: uppercase;
-color: #1e88e5;
-letter-spacing: 1.8px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e88e5;
+    letter-spacing: 1.8px;
 }
 
 .bigproduct__h3 {
-color: #212121;
-font-size: 36px;
-font-weight: 700;
-        margin-top: 18px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 18px;
 }
 
 .padding-tb {
     margin: 120px 0;
+}
+
+.block-trend-products__h3 {
+color: #212121;
+font-size: 36px;
+font-weight: 700;
+}
+
+.block-trend-products__products {
+        margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-trend-products__product__sndlvl {
+    margin-top: 30px;
+}
+
+.block-trend-products__product {
+    margin-top: 30px;
 }
