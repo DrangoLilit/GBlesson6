@@ -354,3 +354,94 @@ h4 {
 .block-mobile-app__img-apple {
     margin-right: 10px;
 }
+
+.footer {
+    padding-top: 120px;
+    background-color: #f7f7f7;
+}
+
+.footer__usefull-li {
+color: #212121;
+font-size: 14px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.7px;
+    
+    display:block;
+    width:49%;
+    float:left;
+}
+
+.footer-h4 {
+    color: #6c6c6c;
+    padding-bottom: 24px;
+}
+
+.footer-p {
+color: #212121;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+    padding-bottom: 26px;
+}
+
+.footer-input {
+color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 370px;
+    box-sizing: border-box;
+    padding: 17px 19px;
+    background: url(img/fly.png) no-repeat;
+    background-position: 330px;
+    border: 1px solid #d9dee1;
+}
+
+.footer__contactus {
+    width: 221px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__usefull {
+    width: 422px;
+}
+
+.footer__email {
+    width: 370px;
+}
+
+.footer__autor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+    padding-bottom: 30px;
+}
+
+.footer__copyright, .footer__policy{
+color: #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.6px;
+}
+
+.footer__social-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #6c6c6c;
+    margin-right: 5px;
+}
+.footer__social-icon:last-child{
+    margin-right: 0;
+}
+
+.footer__social {
+    display: flex;
+}
