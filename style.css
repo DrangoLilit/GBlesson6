@@ -62,19 +62,28 @@ ul {
 }
 
 .block-slider__text-h4 {
+    color: #43a047;
+}
+
+h4 {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #43a047;
     letter-spacing: 1.8px;
 }
 
-.block-slider__text-h2 {
+.block-slider__text-h2,
+.block-mobile-app__h2 {
     color: #212121;
     font-size: 62px;
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: -3px;
+    line-height: 72px;
+}
+
+.block-mobile-app__h2 {
+    letter-spacing: -4px;
 }
 
 .block-slider__text {
@@ -135,7 +144,8 @@ ul {
     align-items: center;
 }
 
-.block-featured__nav, .block-trend-products__nav {
+.block-featured__nav,
+.block-trend-products__nav {
     display: flex;
     justify-content: space-between;
 }
@@ -222,7 +232,8 @@ ul {
     background: url(img/promo-img1.jpg)
 }
 
-.block-bigproduct-product, .block-exclusive__bigproduct {
+.block-bigproduct-product,
+.block-exclusive__bigproduct {
     padding-left: 52px;
     box-sizing: border-box;
     float: left;
@@ -230,14 +241,15 @@ ul {
     flex-direction: column;
     justify-content: center;
 }
-.block-exclusive__bigproduct{
+
+.block-exclusive__bigproduct {
     padding-left: 32px;
     background: url(img/product-1-lg.jpg);
     height: 570px;
     width: 570px;
 }
 
-.block-bigproduct-product{
+.block-bigproduct-product {
     height: 683px;
     width: 683px;
 }
@@ -251,11 +263,7 @@ ul {
 }
 
 .biproduct__exclusive {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
     color: #1e88e5;
-    letter-spacing: 1.8px;
 }
 
 .bigproduct__h3 {
@@ -270,13 +278,13 @@ ul {
 }
 
 .block-trend-products__h3 {
-color: #212121;
-font-size: 36px;
-font-weight: 700;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .block-trend-products__products {
-        margin-top: 34px;
+    margin-top: 34px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -291,7 +299,7 @@ font-weight: 700;
 }
 
 .first-home-slider {
-        background: url('img/slider-img.jpg');
+    background: url('img/slider-img.jpg');
 }
 
 .second-home-slider {
@@ -318,4 +326,31 @@ font-weight: 700;
 .block-mobile-app {
     background: url(img/back-img.jpg);
     height: 516px;
+    display: flex;
+    align-items: center;
+}
+
+.block-mobile-app__text {
+    width: 420px;
+}
+
+.block-mobile-app__p {
+    margin-top: 10px;
+    letter-spacing: -0.2px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.block-mobile-app__h4 {
+    color: #6c6c6c;
+}
+
+.block-mobile-app__img {
+    float: left;
+    margin-top: 33px;
+}
+
+.block-mobile-app__img-apple {
+    margin-right: 10px;
 }
