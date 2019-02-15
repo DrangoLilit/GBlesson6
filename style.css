@@ -222,15 +222,24 @@ ul {
     background: url(img/promo-img1.jpg)
 }
 
-.block-bigproduct-product {
-    height: 683px;
-    width: 683px;
+.block-bigproduct-product, .block-exclusive__bigproduct {
     padding-left: 52px;
     box-sizing: border-box;
     float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.block-exclusive__bigproduct{
+    padding-left: 32px;
+    background: url(img/product-1-lg.jpg);
+    height: 570px;
+    width: 570px;
+}
+
+.block-bigproduct-product{
+    height: 683px;
+    width: 683px;
 }
 
 .bigproduct-2 {
@@ -291,4 +300,22 @@ font-weight: 700;
 
 .hotdeal {
     color: #e53935;
+}
+
+.block-exclusive__products {
+    height: 570px;
+    width: 570px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-top {
+    padding-top: 30px;
+}
+
+.block-mobile-app {
+    background: url(img/back-img.jpg);
+    height: 516px;
 }
