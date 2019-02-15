@@ -27,7 +27,6 @@ ul {
 
 .block-slider {
     height: 800px;
-    background: url('img/slider-img.jpg');
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -280,4 +279,16 @@ font-weight: 700;
 
 .block-trend-products__product {
     margin-top: 30px;
+}
+
+.first-home-slider {
+        background: url('img/slider-img.jpg');
+}
+
+.second-home-slider {
+    background: url(img/slider.jpg)
+}
+
+.hotdeal {
+    color: #e53935;
 }
